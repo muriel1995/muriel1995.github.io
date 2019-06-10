@@ -1,0 +1,48 @@
+
+/** reprise code css partie quetes gandal **/
+  html, body {
+    margin: 0;
+    padding: 0;
+    }
+   body {
+    background-color: white; 
+    font-family: Verdana, sans-serif; 
+    font-size: 100%;
+    }
+   
+   /** reprise pour cards partie sur les portraits de la précédentes**/
+   #containercards{
+     }
+   
+   #containercards:hover .positionimage{ 
+     opacity:1}
+       
+   #containercards:hover .fond{
+     display:none;}
+   
+   #containercards:hover .fond{ 
+     top:450px;left:200px;
+     font-size:200%;}
+   
+   .positionimage{
+     position:absolute;
+     opacity:0.4;}
+   
+   .fond{
+     position:absolute;
+     top:30px;left:40px; 
+     width:420px; height:130px; 
+     border-radius:10px; 
+     background-color:white;}
+   
+   #reward{
+     font-size:300%;
+     margin:8px 50px 50px 50px;}
+   
+   .gandalf{
+     position:absolute;
+     top:250px;left:120px; 
+     width:600px; height:400px; 
+     font-size:400%; 
+     color:white;}
+   
